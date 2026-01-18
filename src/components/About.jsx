@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "./Skills";
+import { Link } from "react-router";
 
 function About() {
 
@@ -35,9 +36,12 @@ function About() {
                         <p className="text-white leading-relaxed text-md">
                             I create multi-page UI experiences using React Router, adding features like dynamic routes, nested routes, and URL parameters.
                         </p>
-                        <p className="text-white leading-relaxed text-md">
-I combine React with Tailwind CSS to create fast, responsive, and beautifully designed interfaces while keeping the code clean and utility-based.                        </p>
-
+                        <p className="text-white leading-relaxed text-md pb-6">
+                            I combine React with Tailwind CSS to create fast, responsive, and beautifully designed interfaces while keeping the code clean and utility-based.      
+                             </p>
+                        <Link to="/images/resume.pdf" target="_blank" className="px-12 py-4 mt-5 mb-12 bg-[#f5487f] text-white rounded-lg font-semibold uppercase hover:bg-gray-200 hover:text-black transition">
+                            Download CV
+                        </Link>
 
                     </div>
                 </div>
