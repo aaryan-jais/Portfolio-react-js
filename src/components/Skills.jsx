@@ -12,7 +12,7 @@ const Skills = () => {
   ];
 
       const imageUrl = 
-'./src/assets/hero_bg.webp';
+'/images/hero_bg.webp';
 
   return (
     <section className="w-full py-16 bg-gray-50 bg-cover bg-center" style={{ backgroundImage: `url(${imageUrl})` }}>
