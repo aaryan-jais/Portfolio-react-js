@@ -7,7 +7,7 @@ const KnowBackend = () => {
       <div className="max-w-6xl mx-auto">
 
        
-        <h2 className=" tex-3xl md:text-5xl font-bold text-center text-white mb-12">
+        <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-12">
           Know the <span className="text-blue-600">Backend</span>
         </h2>
 
