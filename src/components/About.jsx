@@ -12,7 +12,7 @@ function About() {
                     <div className="md:col-span-1">
                         <div className="w-full overflow-hidden">
                             <img
-                                src="./src/assets/about-us.webp"
+                                src="/images/about-us.webp"
                                 alt="About"
                                 className="w-full h-full object-cover"
                             />

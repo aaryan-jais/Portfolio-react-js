@@ -44,7 +44,7 @@ const Education = () => {
          
         <div className="w-full md:col-span-2">
           <img
-            src="src/assets/education.webp"
+            src="/images/education.webp"
             alt="profile"
             className="w-full h-full object-cover"
           />

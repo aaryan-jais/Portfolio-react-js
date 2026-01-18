@@ -6,9 +6,9 @@ import KnowBackend from "./KnowBackend";
 
 function Home() {
     const imageUrl = 
-'./src/assets/hero_bg.webp';
+'/images/hero_bg.webp';
    const profileUrl = 
-'./src/assets/profile.webp';
+'/images/profile.webp';
    
 
 
