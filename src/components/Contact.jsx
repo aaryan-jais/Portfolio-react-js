@@ -74,7 +74,7 @@ function Contact() {
           rows="5"
           required
         ></textarea>
-        <button type="submit" className="bg-blue-600 text-white py-3 rounded hover:bg-blue-700 transition">
+        <button type="submit" className="bg-[#f5487f] text-white py-3 uppercase rounded hover:bg-blue-700 transition">
           Send Message
         </button>
       </form>
