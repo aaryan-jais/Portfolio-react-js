@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <>
-    <section id="home" className="pt-16 pb-16  flex flex-col justify-center items-center text-center text-white bg-cover bg-center mt-20" style={{ backgroundImage: `url(${imageUrl})` }}>
+    <section id="home" className="pt-16 pb-16 px-10  flex flex-col justify-center items-center text-center text-white bg-cover bg-center mt-20" style={{ backgroundImage: `url(${imageUrl})` }}>
         <img src={profileUrl} alt="Profile" className="max-w-70 py-6" />
       <h1 className="text-2xl font-bold mb-4">Hi, I'm Aaryan Raj</h1>
             <h2 className=" text-3xl leading-10 md:text-6xl md:leading-16 font-bold mb-4 max-w-260">Building Fast, Beautiful, & Interactive User Interfaces</h2>
