@@ -3,12 +3,12 @@ import React from "react";
 
 const KnowBackend = () => {
   return (
-    <section className="w-full bg-[#0E0C21] py-16 px-6 md:px-12">
+    <section className="w-full bg-[#0E0D3D] py-16 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
 
        
         <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-12">
-          Know the <span className="text-blue-600">Backend</span>
+          Know the <span className="text-blue-400">Backend</span>
         </h2>
 
       

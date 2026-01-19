@@ -7,7 +7,7 @@ const Experience = () => {
 
        
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-10 text-center">
-          Work <span className="text-blue-600">Experience</span>
+          Work <span className="text-blue-400">Experience</span>
         </h2>
 
        

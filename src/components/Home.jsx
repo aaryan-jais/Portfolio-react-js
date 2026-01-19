@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import Education from "./Education";
 import Experience from "./Experience";
 import KnowBackend from "./KnowBackend";
+import KeySkills from "./KeySkills";
 
 function Home() {
     const imageUrl = 
@@ -26,7 +27,9 @@ function Home() {
     </section>
     <Education/>
     <Experience/>
+    <KeySkills/>
     <KnowBackend/>
+    
 
     </>
   );
