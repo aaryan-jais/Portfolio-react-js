@@ -26,10 +26,6 @@ export default function KeySkills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: index * 0.05 }}
-            whileHover={{ scale: 1.07 }}
             className="p-5 rounded-xl bg-gray-800/60 border border-gray-700 
                        shadow-xl hover:shadow-blue-600/40 
                        backdrop-blur-sm cursor-pointer text-center 

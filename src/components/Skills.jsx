@@ -9,17 +9,19 @@ const Skills = () => {
     { name: "HTML / CSS", level: "95%" },
     { name: "Git & GitHub", level: "80%" },
     { name: "Responsive Design", level: "92%" },
+    { name: "Mongoose", level: "85%" },
+    { name: "Node Js / Express Js", level: "80%" },
+     { name: "Redux", level: "80%" },
   ];
 
-      const imageUrl = 
-'/images/hero_bg.webp';
+      
 
   return (
-    <section className="w-full py-16 bg-gray-50 bg-cover bg-center" style={{ backgroundImage: `url(${imageUrl})` }}>
+    <section className="w-full py-16 bg-[#0E0D3D]" >
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         
         <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-12">
-          My Skills
+          My <span className="text-blue-400">Skills</span>
         </h2>
 
        
@@ -40,7 +42,7 @@ const Skills = () => {
              
               <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
                 <div
-                  className="bg-blue-600 h-full rounded-full transition-all duration-500"
+                  className="bg-blue-400 h-full rounded-full transition-all duration-500"
                   style={{ width: skill.level }}
                 ></div>
               </div>

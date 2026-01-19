@@ -1,6 +1,7 @@
 import React from "react";
 import Skills from "./Skills";
 import { Link } from "react-router";
+import ApiProjects from "./ApiProjects";
 
 function About() {
 
@@ -46,7 +47,9 @@ function About() {
                     </div>
                 </div>
             </section>
-            <Skills />
+            
+             <ApiProjects/>
+             <Skills />
         </>
 
 

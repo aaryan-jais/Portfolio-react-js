@@ -20,10 +20,11 @@ const Projects = () => {
   ];
 
   return (
+    <>
     <section id="projects" className="w-full py-20 bg-gray-50 mt-20">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
-        {/* Heading */}
+       
         <div className="text-center mb-12">
           <h2 className="text-5xl font-extrabold text-gray-900">
             My Projects
@@ -33,7 +34,7 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Projects Grid */}
+       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {projectList.map((project, index) => (
             <div
@@ -50,7 +51,7 @@ const Projects = () => {
                 {project.desc}
               </p>
 
-              {/* Tech Stack */}
+            
               <div className="flex flex-wrap gap-2 mb-5">
                 {project.tech.map((t, i) => (
                   <span
@@ -69,6 +70,8 @@ const Projects = () => {
 
       </div>
     </section>
+  
+    </>
   );
 };
 

@@ -14,7 +14,8 @@ const Education = () => {
           <div className="space-y-8">
 
            
-            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-blue-500">
+            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-blue-500 hover:-translate-x-2
+                       transition-all duration-300">
               <h3 className="text-xl font-semibold text-gray-900">
                 Netaji Subhash Engineering College, Kolkata
               </h3>
@@ -23,7 +24,8 @@ const Education = () => {
             </div>
 
            
-            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-green-500">
+            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-green-500 hover:-translate-x-2
+                       transition-all duration-300">
               <h3 className="text-xl font-semibold text-gray-900">
                 R.S College, Tarapur
               </h3>
@@ -31,7 +33,8 @@ const Education = () => {
               <p className="text-gray-600 text-sm">Percentage: 73.2%</p>
             </div>
 
-            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-purple-500">
+            <div className="bg-white rounded-xl p-5 shadow-md border-l-4 border-purple-500 hover:-translate-x-2
+                       transition-all duration-300">
               <h3 className="text-xl font-semibold text-gray-900">
                 Adarsh High School, Tarapur
               </h3>
