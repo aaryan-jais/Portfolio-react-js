@@ -9,12 +9,12 @@ const Projects = () => {
     },
     {
       title: "E-Commerce Dashboard",
-      desc: "A responsive dashboard with charts, product management and clean UI.",
-      tech: ["React", "Chart.js", "Redux"],
+      desc: "A responsive dashboard with login, product management and clean UI.",
+      tech: ["React", "Mongoose", "Redux"],
     },
     {
-      title: "Weather App",
-      desc: "A weather forecasting app with real-time API integration.",
+      title: "Todos App",
+      desc: "A Todos app with real-time API integration.",
       tech: ["React", "API", "Tailwind"],
     },
   ];
