@@ -18,7 +18,7 @@ const Skills = () => {
     <section className="w-full py-16 bg-gray-50 bg-cover bg-center" style={{ backgroundImage: `url(${imageUrl})` }}>
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         
-        <h2 className="text-5xl font-bold text-white text-center mb-12">
+        <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-12">
           My Skills
         </h2>
 
