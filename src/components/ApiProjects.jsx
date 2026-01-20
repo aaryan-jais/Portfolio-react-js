@@ -54,20 +54,20 @@ export default function ApiProjects() {
                 {project.description || "No description available."}
               </p>
 
-              <div className="mt-4 flex justify-between items-center">
+              <div className="mt-4">
                 <span className="text-xs bg-blue-600/20 text-blue-300 px-2 py-1 rounded">
                   {Array.isArray(project.languages)
                     ? project.languages.join(", ")
                     : project.languages}
                 </span>
 
-                {/* <a
+                <a
                   href={project.url}
                   target="_blank"
-                  className="text-blue-400 hover:text-blue-300 text-sm font-medium"
+                  className="mt-4 block text-blue-400 hover:text-blue-300 text-sm font-medium"
                 >
                   View →
-                </a> */}
+                </a>
               </div>
             </div>
           ))}
