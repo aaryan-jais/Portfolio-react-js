@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router";
 import Education from "./Education";
 import Experience from "./Experience";
-import KnowBackend from "./KnowBackend";
 import KeySkills from "./KeySkills";
+import ProjectsHome from "./ProjectsHome";
 
 function Home() {
     const imageUrl = 
@@ -20,15 +20,25 @@ function Home() {
       <h4 className="tex-xl md:text-2xl font-bold mb-4">Hi, I'm Aaryan Raj</h4>
             <h1 className=" text-2xl leading-9 md:text-6xl md:leading-16 font-bold mb-4 max-w-260">Building Fast, Beautiful, & Interactive User Interfaces</h1>
 
-      <p className="text-sm text-center leading-6 mb-6 max-w-210 px-2 ">I am a Front-End Developer specializing in building modern, responsive, and user-friendly web applications using React JS. I enjoy turning ideas into real digital experiences through clean UI, smooth interactions, and optimized performance. My focus is on writing clean, maintainable code and creating interfaces that look great on every device.</p>
-      <Link to="/projects" className="px-12 py-4 mt-3 mb-12 bg-[#f5487f] text-white rounded-lg font-semibold uppercase hover:bg-gray-200 hover:text-black transition">
-        View My Work
-      </Link>
+      <p className="text-sm text-center leading-6 mb-6 max-w-210 px-2 ">Full Stack Developer (MERN) with strong Frontend expertise and
+experience building scalable web applications. Completed Full Stack
+Development (MERN + AI) from PW Skills and previously worked 5+
+years as a Web/UI Designer, delivering high-performance, responsive
+websites, reusable UI components, and optimized user experiences.
+Skilled in React, Redux Toolkit, Node.js, Express, MongoDB, Tailwind, and
+REST APIs.</p>
+      <Link
+          to="/projects"
+          className="px-12 py-4 mt-3 mb-12 bg-gradient-to-r from-pink-500 to-indigo-500 text-white rounded-lg font-semibold uppercase shadow-lg hover:shadow-xl hover:scale-105 transition transform duration-300"
+        >
+          View My Work
+        </Link>
     </section>
-    <Education/>
+    <ProjectsHome/>
     <Experience/>
     <KeySkills/>
-    <KnowBackend/>
+     <Education/>
+ 
     
 
     </>

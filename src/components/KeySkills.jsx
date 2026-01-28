@@ -18,9 +18,11 @@ const skills = [
 export default function KeySkills() {
   return (
     <section className="py-16 bg-gray-900 text-white">
-      <h2 className="text-3xl md:text-5xl font-bold text-center mb-10">
-        My <span className="text-blue-400">Skills</span>
-      </h2>
+      <h2 className="text-4xl md:text-6xl font-bold mb-14 text-center">
+          <span className="bg-gradient-to-r from-indigo-400 to-pink-400 bg-clip-text text-transparent">
+            My Skills
+          </span>
+        </h2>
 
       <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 px-4">
         {skills.map((skill, index) => (
