@@ -40,7 +40,7 @@ function About() {
                         <p className="text-white leading-relaxed text-md pb-6">
                             I combine React with Tailwind CSS to create fast, responsive, and beautifully designed interfaces while keeping the code clean and utility-based.      
                              </p>
-                        <Link to="/images/resume.pdf" target="_blank" className="px-12 py-4 mt-3 mb-12 bg-gradient-to-r from-pink-500 to-indigo-500 text-white rounded-lg font-semibold uppercase shadow-lg hover:shadow-xl hover:scale-105 transition transform duration-300">
+                        <Link to="/images/aaryan_resume.pdf" target="_blank" className="px-12 py-4 mt-3 mb-12 bg-gradient-to-r from-pink-500 to-indigo-500 text-white rounded-lg font-semibold uppercase shadow-lg hover:shadow-xl hover:scale-105 transition transform duration-300">
                             Download CV
                         </Link>
 
