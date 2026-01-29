@@ -4,7 +4,7 @@ import React from "react";
 const educationData = [
   {
     institute: "Netaji Subhash Engineering College, Kolkata",
-    degree: "B-Tech, Mechanical Engineering",
+    degree: "B-Tech",
     scoreLabel: "DGPA",
     score: "8.38",
   },
