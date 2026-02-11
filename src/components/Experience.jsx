@@ -46,7 +46,7 @@ const experienceData = [
 
 export default function Experience() {
   return (
-    <section className="bg-slate-950 text-white py-24">
+    <section className="bg-[#0E0C21] text-white py-24">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-6xl font-bold mb-14 text-center">
           <span className="bg-gradient-to-r from-indigo-400 to-pink-400 bg-clip-text text-transparent">
