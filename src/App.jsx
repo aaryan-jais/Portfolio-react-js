@@ -6,12 +6,16 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router";
+import SocialLinks from "./components/SocialLinks";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
     <div className="min-h-screen flex flex-col bg-gray100">
+      <ScrollToTop/>
       <Navbar/>
+      <SocialLinks />
       <main>
       <Routes>
         <Route path="/" element={<Home />} />
